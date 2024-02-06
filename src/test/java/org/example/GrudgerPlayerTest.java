@@ -29,6 +29,9 @@ class GrudgerPlayerTest {
         player.wasCheated();
 
         assertEquals(Choice.CHEAT, player.playChoice());
+        assertEquals(Choice.CHEAT, player.playChoice());
+        assertEquals(Choice.CHEAT, player.playChoice());
+        assertEquals(Choice.CHEAT, player.playChoice());
     }
 
 

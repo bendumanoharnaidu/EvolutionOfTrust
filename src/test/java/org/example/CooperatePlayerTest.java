@@ -20,6 +20,8 @@ class CooperatePlayerTest {
     public void TestExpectPlayerToAlwaysChooseCooperate1() {
         Player player = new CooperatePlayer("Manohar");
         assertNotEquals(Choice.CHEAT, player.playChoice());
+        assertNotEquals(Choice.CHEAT, player.playChoice());
+        assertNotEquals(Choice.CHEAT, player.playChoice());
     }
 
 }

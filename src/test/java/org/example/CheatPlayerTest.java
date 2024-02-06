@@ -19,6 +19,8 @@ class CheatPlayerTest {
     public void TestExpectsToAlwaysChooseCheat2() {
         Player player = new CheatPlayer("Manohar");
         assertNotEquals(Choice.COOPERATE, player.playChoice());
+        assertNotEquals(Choice.COOPERATE, player.playChoice());
+        assertNotEquals(Choice.COOPERATE, player.playChoice());
     }
 
 }

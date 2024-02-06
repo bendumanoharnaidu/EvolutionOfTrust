@@ -18,6 +18,7 @@ public class CheatPlayer implements Player{
         System.out.println("CheatPlayerScore: "+ this.score);
     }
 
+    @Override
     public int getScore() {
         return score;
     }

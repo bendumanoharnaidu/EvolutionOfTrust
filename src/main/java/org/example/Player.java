@@ -4,4 +4,6 @@ public interface Player {
     public Choice playChoice();
 
     public void score(int score);
+
+    int getScore();
 }

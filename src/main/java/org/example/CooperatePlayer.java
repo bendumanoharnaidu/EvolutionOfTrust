@@ -13,11 +13,12 @@ public class CooperatePlayer implements Player {
     }
 
     @Override
-    public void score(int score) {
-        this.score += score;
+    public void score(int value) {
+        this.score += value;
         System.out.println("CooperatePlayerScore: "+ this.score);
     }
 
+    @Override
     public int getScore() {
         return this.score;
     }
